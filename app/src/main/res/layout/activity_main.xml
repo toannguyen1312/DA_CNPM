@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F8F8FF"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/setting"
+            android:background="#F8F8FF"
+            android:layout_marginLeft="30dp"
+
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="12dp"
+            android:background="#F8F8FF"
+            android:gravity="center"
+            android:paddingTop="14dp"
+            android:paddingBottom="10dp"
+            android:text="News"
+            android:textColor="#DD0000"
+            android:textSize="30dp"
+
+            />
+
+    </LinearLayout>
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:background="@drawable/custom_searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:queryHint="Search Here..."
+
+        />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_marginTop="12dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:padding="10dp"
+        >
+
+    </ListView>
+
+
+</LinearLayout>
