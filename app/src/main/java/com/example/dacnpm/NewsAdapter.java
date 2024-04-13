@@ -105,12 +105,7 @@ public class NewsAdapter extends BaseAdapter {
         Picasso.get().load(news.getImgURL()).into(viewHolder.imageView);
 
 
-
-
-
         return convertView;
     }
-
-
 
 }

@@ -4,9 +4,7 @@ public class News {
 
     private int newID;
     private String title;
-
     private Category category;
-
     private String publishDate;
     private String description;
     private String imgURL;
